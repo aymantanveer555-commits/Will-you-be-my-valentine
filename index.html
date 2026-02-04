@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be My Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PAGE 1 -->
+<div class="page active" id="page1">
+  <img src="bg.jpg" class="bg-image">
+
+  <h1>Will you be my Valentine? 💖</h1>
+  <div class="buttons">
+    <button id="yesBtn">YES 💘</button>
+    <button id="noBtn">NO</button>
+  </div>
+</div>
+
+
+  <!-- PAGE 2 -->
+  <div class="page" id="page2">
+    <h2 class="message">
+      I knew you’d say yes 💖<br>
+      Looks like I found my forever
+    </h2>
+
+    <div class="slider">
+      <div class="slide-track">
+        <img src="images/img1.jpeg">
+        <img src="images/img2.jpeg">
+        <img src="images/img3.jpeg">
+        <img src="images/img4.jpeg">
+        <img src="images/img5.jpeg">
+        <img src="images/img6.jpeg">
+        <img src="images/img7.jpeg">
+
+        <!-- duplicate for smooth infinite loop -->
+        <img src="images/img1.jpeg">
+        <img src="images/img2.jpeg">
+        <img src="images/img3.jpeg">
+        <img src="images/img4.jpeg">
+        <img src="images/img5.jpeg">
+        <img src="images/img6.jpeg">
+        <img src="images/img7.jpeg">
+      </div>
+    </div>
+
+    <audio id="music" src="music.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
